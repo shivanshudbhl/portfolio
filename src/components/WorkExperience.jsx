@@ -11,7 +11,7 @@ const slides = [
     id: 0,
     jobTitle: 'Mern Stack Developer',
     companyName: 'Desing Innovation Center,UIET',
-    datesWorked: ' 7-07-22   5-08-22',
+    datesWorked: ' 7/07/22 --  5/08/22',
     jobDescription:
       'I developed a fully functional e-commerce app using the MERN stack (MongoDB, Express, React, and Node.js). I was responsible for designing and implementing the frontend user interface using React, developing the backend API using Node.js and Express, implementing a secure checkout process using PayPal, and managing the MongoDB database. The app was built using best practices, and it was well-documented. The app was scalable and could handle a large number of users.',
 
