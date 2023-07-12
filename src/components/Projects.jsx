@@ -63,7 +63,7 @@ const Projects = () => {
           <h2 className='text-center font-bold my-3'> {projectName}</h2>
           <p className='text-center mb-5'>{projectDescription}</p>
           <div className='flex justify-center mb-1'>
-            <a target="_blank" rel="noopener">
+            <a target="_blank" rel="noopener" href={githubLink}>
               <img
                 src='https://img.icons8.com/material-outlined/24/61dbfb/github.png'
                 alt='github link'

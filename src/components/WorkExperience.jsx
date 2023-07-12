@@ -9,36 +9,15 @@ import 'swiper/css/autoplay'
 const slides = [
   {
     id: 0,
-    jobTitle: 'Job Title',
-    companyName: 'Company Name',
-    datesWorked: ' 2020 - 2023 ',
+    jobTitle: 'Mern Stack Developer',
+    companyName: 'Desing Innovation Center,UIET',
+    datesWorked: ' 7-07-22   5-08-22',
     jobDescription:
-      'Put the details of the job and skills required here. Example: I worked with React Three Fiber, Framer Motion, and Swiper.js to build amazing looking UI that is reuseable. I used Node and Express to provide functional CRUD operations with a noSQL database.',
+      'I developed a fully functional e-commerce app using the MERN stack (MongoDB, Express, React, and Node.js). I was responsible for designing and implementing the frontend user interface using React, developing the backend API using Node.js and Express, implementing a secure checkout process using PayPal, and managing the MongoDB database. The app was built using best practices, and it was well-documented. The app was scalable and could handle a large number of users.',
+
+
   },
-  {
-    id: 1,
-    jobTitle: 'Job Title',
-    companyName: 'Company Name',
-    datesWorked: ' 2020 - 2023',
-    jobDescription:
-      'Put the details of the job and skills required here. Example: I worked with React Three Fiber, Framer Motion, and Swiper.js to build amazing looking UI that is reuseable. I used Node and Express to provide functional CRUD operations with a noSQL database.',
-  },
-  {
-    id: 2,
-    jobTitle: 'Job Title',
-    companyName: 'Company Name',
-    datesWorked: ' 2020 - 2023',
-    jobDescription:
-      'Put the details of the job and skills required here. Example: I worked with React Three Fiber, Framer Motion, and Swiper.js to build amazing looking UI that is reuseable. I used Node and Express to provide functional CRUD operations with a noSQL database.',
-  },
-  {
-    id: 3,
-    jobTitle: 'Job Title',
-    companyName: 'Company Name',
-    datesWorked: ' 2020 - 2023',
-    jobDescription:
-      'Put the details of the job and skills required here. Example: I worked with React Three Fiber, Framer Motion, and Swiper.js to build amazing looking UI that is reuseable. I used Node and Express to provide functional CRUD operations with a noSQL database.',
-  },
+
 ]
 
 const WorkExperience = () => {
