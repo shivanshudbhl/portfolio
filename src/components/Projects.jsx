@@ -8,11 +8,12 @@ import 'swiper/css/autoplay'
 import thumbNail from '../assets/thumbNail.jpg'
 import ecom_thumbnail from '../assets/ecom_thumbnail.png'
 import notehub_thumbnail from '../assets/notehub_thumbnail.png'
+import secrets_thumbnail from '../assets/secrets_thumbnail.png'
 
 const slides = [
   {
     id: 0,
-    imageSrc: thumbNail,
+    imageSrc: secrets_thumbnail,
     projectName: 'Project 1',
     projectLink: '#',
     projectDescription:
