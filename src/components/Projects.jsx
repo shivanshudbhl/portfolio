@@ -5,7 +5,6 @@ import 'swiper/css'
 import 'swiper/css/effect-coverflow'
 import 'swiper/css/autoplay'
 
-import thumbNail from '../assets/thumbNail.jpg'
 import ecom_thumbnail from '../assets/ecom_thumbnail.png'
 import notehub_thumbnail from '../assets/notehub_thumbnail.png'
 import secrets_thumbnail from '../assets/secrets_thumbnail.png'
@@ -13,30 +12,30 @@ import secrets_thumbnail from '../assets/secrets_thumbnail.png'
 const slides = [
   {
     id: 0,
-    imageSrc: secrets_thumbnail,
-    projectName: 'Project 1',
-    projectLink: '#',
+    imageSrc: ecom_thumbnail,
+    projectName: 'Best Online Shop',
+    projectLink: 'https://frontend-vffp.onrender.com/',
     projectDescription:
-      'This is the description for project 1. You can talk about the technologies you used for the project, what you learned, or maybe even make a link to a blog post you wrote about the projec that goes into more details than can be placed in a card! ',
-    githubLink: '#',
+      'A Fully Funtional E-commerce webstie created from scratch. The user can search through various products in various categories and make payment through Paypal.The admin can control orders, see real time chart analytics.',
+    githubLink: 'https://github.com/shivanshudbhl/ecomm',
   },
   {
     id: 1,
-    imageSrc: ecom_thumbnail,
-    projectName: 'Project 2',
-    projectLink: '#',
+    imageSrc: notehub_thumbnail,
+    projectName: 'NoteHub',
+    projectLink: 'https://8qcwx.csb.app/',
     projectDescription:
-      'This is the description for project 2. You can talk about the technologies you used for the project, what you learned, or maybe even make a link to a blog post you wrote about the projec that goes into more details than can be placed in a card!',
-    githubLink: '#',
+      'A Very sophisticated note keeping app ready to make our daily life easier',
+    githubLink: 'https://github.com/shivanshudbhl/notehub',
   },
   {
     id: 2,
-    imageSrc: notehub_thumbnail,
-    projectName: 'Project 3',
+    imageSrc: secrets_thumbnail,
+    projectName: 'Secrets',
     projectLink: '#',
     projectDescription:
-      'This is the description for project 3. You can talk about the technologies you used for the project, what you learned, or maybe even make a link to a blog post you wrote about the projec that goes into more details than can be placed in a card!',
-    githubLink: '#',
+      'A kind of social media app where users can post their thoughts without revealing their identity to all others',
+    githubLink: 'https://github.com/shivanshudbhl/Secrets',
   },
   
 ]
@@ -52,7 +51,7 @@ const Projects = () => {
     return (
       <div className='border-4 w-full glass-background rounded-lg overflow-hidden flex flex-col'>
         <div className='w-full'>
-          <a href={projectLink} className='block w-full h-full'>
+          <a target="_blank" rel="noopener" href={projectLink} className='block w-full h-full'>
             <img
               src={imageSrc}
               alt={projectName}
@@ -64,7 +63,7 @@ const Projects = () => {
           <h2 className='text-center font-bold my-3'> {projectName}</h2>
           <p className='text-center mb-5'>{projectDescription}</p>
           <div className='flex justify-center mb-1'>
-            <a>
+            <a target="_blank" rel="noopener">
               <img
                 src='https://img.icons8.com/material-outlined/24/61dbfb/github.png'
                 alt='github link'
